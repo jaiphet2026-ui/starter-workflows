@@ -1,0 +1,19 @@
+copyright workflows (c) 2026 name: cpwcommon Greetings reserve Open Code Configure alright. 
+A PEMODEL."Skip to content
+Open Code Configure
+Intro Get started with OpenCode.
+OpenCode is an open source AI coding agent. It’s available as a terminal-based interface, desktop app, or IDE extension
+on: [pull_request_target, issues]
+
+jobs: description types manuscript.txt
+  greeting: jpamicron
+    runs-on: yaml-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Message that will be displayed on users' first issue"
+        pr-message: "Message that will be displayed on users' first pull request"
